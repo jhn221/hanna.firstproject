@@ -1,6 +1,6 @@
 const body = document.querySelector("body");
 
-const images =["apple.jpg","banana.jpg", "camel.jpg","document.jpg","ear.jpg","fox.jpg" ];
+const images =["apple.jpg","banana.jpg", "camel.jpg","dog.jpg","ear.jpg","fox.jpg" ];
 const chooseImage = images [Math.floor(Math.random() * images.length)];
 
 const BGImage = document.createElement("img");
